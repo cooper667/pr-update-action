@@ -6,7 +6,7 @@ jobs:
   pr_update_text:
     runs-on: ubuntu-latest
     steps:
-    - uses: cooper667/pr-update-action@v1.0.1
+    - uses: cooper667/pr-update-action@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         branch-regex: 'FOO-\d+'
